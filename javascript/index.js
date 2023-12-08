@@ -43,14 +43,14 @@
 // handlePromise();
 
 //using Async and await with setTimeout;...............................................................................
-const k = new Promise((resolve,reject)=>{
-    setTimeout(()=>{
-        resolve("using set time out function to see how it will work.")
-    },10000)
-})
+// const k = new Promise((resolve,reject)=>{
+//     setTimeout(()=>{
+//         resolve("using set time out function to see how it will work.")
+//     },10000)
+// })
 
-async function handlePromise(){
-    const val = await k;
-    console.log(val)
-}
-handlePromise();
+// async function handlePromise(){
+//     const val = await k;
+//     console.log(val)
+// }
+// handlePromise();

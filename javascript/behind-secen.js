@@ -26,6 +26,6 @@ handlePromise();
 so actully here if promise method is not resolved it will suspend and come out of the call stack 
 after it resoved then again promise come inside the call stack then it will countonue excute*/
 
-//handlePromise()
-//call stack()  //first it will empty then handlePromise will go inside the function
-//async - a,b....
+// handlePromise()
+// call stack()  //first it will empty then handlePromise will go inside the function
+// async - a,b....
